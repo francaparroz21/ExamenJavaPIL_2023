@@ -2,7 +2,7 @@ public interface BodyInterface {
     void move();
 
     interface Domestic {
-        void barrer();
+        void sweep();
 
         void cook();
     }

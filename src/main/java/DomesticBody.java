@@ -1,7 +1,7 @@
 public class DomesticBody extends Body implements BodyInterface.Domestic {
 
     @Override
-    public void barrer() {
+    public void sweep() {
         System.out.println("Estoy barriendo...");
     }
 
