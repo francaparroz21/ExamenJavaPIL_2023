@@ -1,4 +1,4 @@
-public class CuerpoDomestico extends Cuerpo implements CuerpoInterface.Domestico{
+public class DomesticBody extends Body implements BodyInterface.Domestic {
 
     @Override
     public void barrer() {
@@ -6,7 +6,7 @@ public class CuerpoDomestico extends Cuerpo implements CuerpoInterface.Domestico
     }
 
     @Override
-    public void cocinar() {
+    public void cook() {
         System.out.println("TSSSS... estoy cocinando.");
     }
 }

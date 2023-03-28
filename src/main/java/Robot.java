@@ -1,24 +1,24 @@
 public class Robot {
-     Cabeza cabeza;
-     Cuerpo cuerpo;
+     private Head head;
+     private Body body;
 
-    public Cabeza getCabeza() {
-        return cabeza;
+    public Head getHead() {
+        return head;
     }
 
-    public void setCabeza(Cabeza cabeza) {
-        this.cabeza = cabeza;
+    public void setHead(Head head) {
+        this.head = head;
     }
 
-    public Cuerpo getCuerpo() {
-        return cuerpo;
+    public Body getBody() {
+        return body;
     }
 
-    public void setCuerpo(Cuerpo cuerpo) {
-        this.cuerpo = cuerpo;
+    public void setBody(Body body) {
+        this.body = body;
     }
 
-    public void changeBody(Cuerpo cuerpo){
-        setCuerpo(cuerpo);
+    public void changeBody(Body body){
+        setBody(body);
     }
 }

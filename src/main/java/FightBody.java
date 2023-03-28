@@ -1,7 +1,7 @@
-public class CuerpoCombate extends Cuerpo implements CuerpoInterface.Combate{
+public class FightBody extends Body implements BodyInterface.Combat {
 
     @Override
-    public void combatir() {
+    public void fight() {
         System.out.println("¡ESTOY COMBATIENDO!");
     }
 
@@ -10,3 +10,4 @@ public class CuerpoCombate extends Cuerpo implements CuerpoInterface.Combate{
         System.out.println("Me retiro...");
     }
 }
+
