@@ -16,9 +16,5 @@ public class Main {
         robot3.setHead(new Head("Blanco","Negro","Negros"));
         robot3.setBody(new AnimalBody());
 
-
-
-
-
     }
 }

@@ -1,4 +1,4 @@
-public class Body implements BodyInterface {
+public abstract class Body implements BodyInterface {
 
     @Override
     public void move() {
